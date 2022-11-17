@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Prueba | Rueda v1.1</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<main>
+		<div></div>
+		<div id="rueda">
+			<div class="aspas">
+				<div class="aspa aspa-1"></div>
+				<div class="aspa aspa-2"></div>
+				<div class="aspa aspa-3"></div>
+				<div class="aspa aspa-4"></div>
+			</div>
+			<div class="tapa">
+				<img src="https://lucasr98.github.io/LR_Dibuja.github.io/imagenes/recursos/LR%202021.svg">
+			</div>
+		</div>
+		<div class="controles">
+			<div class="input-container">
+				<label for="velocidad">
+					Velocidad:
+				</label>
+				<input id="velocidad" class="inputs" type="number" name="velocidad" value="360" min="1">
+			</div>
+			<div class="input-container">
+				<label for="tiempo">
+					Tiempo de aceleración:
+				</label>
+				<input id="aceleracion" class="inputs" type="number" name="tiempo" value="5" min="1">
+			</div>
+			<div class="input-container">
+				<label for="friccion">
+					Fricción:
+				</label>
+				<input id="friccion" class="inputs" type="number" name="fps" value="1.025" min="1.005" max="1.995">
+			</div>
+			<button id="start" class="start acelerar">Acelerar</button>
+		</div>
+	</main>
+	<script src="scripts.js"></script>
+</body>
+</html>
